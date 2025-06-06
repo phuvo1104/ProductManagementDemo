@@ -7,11 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\BusinessObjects\BusinessObjects.csproj" />
-    <ProjectReference Include="..\DataAccessLayer\DataAccessLayer.csproj" />
-    <ProjectReference Include="..\Repositories\Repositories.csproj" />
-    <ProjectReference Include="..\Services\Services.csproj" />
-  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="netstandard-System.Data.Linq" Version="1.0.1" />
+	</ItemGroup>
 
 </Project>
