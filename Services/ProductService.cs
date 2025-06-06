@@ -13,12 +13,12 @@ namespace Services
         private readonly IProductRepository iProductRepository;
         public ProductService()
         {
-           iProductRepository = new ProductRepository();
+            iProductRepository = new ProductRepository();
         }
 
         public void DeleteProduct(Product p)
         {
-           iProductRepository.DeleteProduct(p);
+            iProductRepository.DeleteProduct(p);
         }
 
         public Product GetProductById(int id)
